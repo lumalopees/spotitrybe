@@ -1,7 +1,15 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-container {
-  background-color: black;
+  background-color: black;  
+} 
+
+.header-container li {
+  list-style-type: none;
+}
+
+.header-container a, li{
+  color: white;
 }
