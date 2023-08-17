@@ -10,6 +10,17 @@ body {
   list-style-type: none;
 }
 
-.header-container a, li{
+.header-container a, li,
+.info-container a {
   color: white;
+  text-decoration: none;
+}
+
+.info-container {
+  background-color: rgb(161, 36, 139);
+}
+
+.info-container h1 {
+  font-size: 40px;
+  font-weight: 900;
 }
