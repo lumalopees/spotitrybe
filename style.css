@@ -9,6 +9,7 @@ body {
 
 .header-container {
   background-color: black;  
+  padding: 20px;
 } 
 
 .header-container li {
@@ -31,4 +32,10 @@ body {
   font-size: 40px;
   font-weight: 900;
   color: white;
+}
+
+.info-container h1,
+.info-container h2,
+.info-container div {
+  margin-bottom: 50px;
 }
