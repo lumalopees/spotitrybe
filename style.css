@@ -39,3 +39,13 @@ body {
 .info-container div {
   margin-bottom: 50px;
 }
+
+.info-button {
+  background-color: black;
+  width: 130px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+}
