@@ -17,8 +17,10 @@ body {
   margin-right: 15px;
 }
 
-.header-container ul, li, img {
-  display:inline;
+.header-container ul, 
+.header-container li, 
+.header-container img {
+  display:inline-block;
 }
 
 .header-container a, li,
@@ -71,4 +73,19 @@ body {
 
 .buttons-container {
   width: 550px;
+}
+
+.header {
+  border: 2px solid red;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header img {
+  width: 30%;
+}
+
+.header ul {
+
 }
