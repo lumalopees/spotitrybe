@@ -14,7 +14,11 @@ body {
 
 .header-container li {
   list-style-type: none;
-  display: inline;
+  margin-right: 15px;
+}
+
+.header-container ul, li, img {
+  display:inline;
 }
 
 .header-container a, li,
@@ -49,4 +53,22 @@ body {
   text-align: center;
   font-size: 13px;
   text-transform: uppercase;
+  margin-right: 10px;
+}
+
+#button-one {
+  float: left;
+  width: 300px;
+}
+
+#button-two {
+  float: right;
+}
+
+#terms {
+  clear: both;
+}
+
+.buttons-container {
+  width: 550px;
 }
