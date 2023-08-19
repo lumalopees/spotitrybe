@@ -17,7 +17,8 @@ body {
   margin-right: 15px;
 }
 
-.header-container ul, 
+.header-container ul,
+.header-container div,  
 .header-container li, 
 .header-container img {
   display:inline-block;
@@ -76,16 +77,16 @@ body {
 }
 
 .header {
-  border: 2px solid red;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.header img {
-  width: 30%;
+.header div:nth-child(1) {
+  width: 20%;
 }
 
-.header ul {
-
+.header div:nth-child(2) {
+  width: 75%;
+  text-align: right;
 }
