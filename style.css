@@ -90,3 +90,7 @@ body {
   width: 75%;
   text-align: right;
 }
+
+.premium-container div {
+  display: inline-block;
+}
