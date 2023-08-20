@@ -130,3 +130,7 @@ li {
   color: #444444;
   font-size: 15px;
 }
+
+a:hover {
+  color: green;
+}
