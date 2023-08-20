@@ -93,4 +93,27 @@ body {
 
 .premium-container div {
   display: inline-block;
+  margin: 30px;
+}
+
+.premium-container {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.premium-container h2 {
+  margin-bottom: 72px;
+  font-size: 40px;
+}
+
+.songs-container {
+  background-color: #efefef;
+  height: 100vh;
+  padding-top: 40px;
+}
+
+.songbox {
+  background-color: white;
+  width: 250px;
+  padding: 40px;
 }
