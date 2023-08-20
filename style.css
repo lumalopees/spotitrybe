@@ -24,6 +24,11 @@ li {
   display:inline-block;
 }
 
+.image-box,
+.navigation {
+  display: inline-block;
+}
+
 .header-container a, li,
 .info-container a {
   color: white;
